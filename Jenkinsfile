@@ -9,9 +9,7 @@ pipeline {
     }
 
 
-     environment {
-        AWS_ACCESS_KEY_ID     = credentials('AWS_ACCESS_KEY_ID')
-        AWS_SECRET_ACCESS_KEY = credentials('AWS_SECRET_ACCESS_KEY')
+
     }
 
 
@@ -21,7 +19,7 @@ pipeline {
                  script{
                         dir("terraform")
                         {
-                            git "https://github.com/troy-ingram/week-24-project.git"
+                            git "https://github.com/mahitammi/devopstraining.git"
                         }
                     }
                 }
