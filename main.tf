@@ -4,8 +4,8 @@ provider "aws" {
     region = "us-east-2"
 }
 
-resource "aws_s3_bucket" "devopstest01" {
+resource "aws_s3_bucket" "devopstest011" {
     #source = "s3.tf"
     #bucket name should be unique
-    bucket = "devops-test-bucket-9494"       
+    bucket = "devops-test-bucket-949494"       
 }
